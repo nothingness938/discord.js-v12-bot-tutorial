@@ -15,7 +15,6 @@ module.exports = {
         .setImage(img)
         .setTitle(`Your meme. From r/${random}`)
         .setURL(`https://reddit.com/r/${random}`)
-  
         message.channel.send(memeEmbed);
     }
 }
